@@ -1,0 +1,35 @@
+#accordion{
+	width: 300px;
+	margin: 0 auto;
+	border: 2px solid #ddd;
+	padding: 10px;
+	height: 100%;
+}
+p{
+	height: 145px;
+}
+#n1 div{
+	background-color: #007FFF;
+	color: #fff;
+}
+#n1 div,
+#n2 div,
+#n3 div,
+#n4 div{
+	margin-top: -19px;
+	width: 100%;
+	border-radius: 5px;
+	padding-left: 10px
+}
+#n1, #n2, #n3, #n4{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	/*padding: 0 5px;*/
+	margin: 2px;
+}
+#n2 p,
+#n3 p,
+#n3 ul,
+#n4 p{
+	display: none;
+}
